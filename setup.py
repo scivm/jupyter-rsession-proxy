@@ -15,7 +15,6 @@ setuptools.setup(
     entry_points={
         'jupyter_serverproxy_servers': [
             'rstudio = jupyter_rsession_proxy:setup_rstudio',
-            'shiny = jupyter_rsession_proxy:setup_shiny'
         ]
     },
     package_data={

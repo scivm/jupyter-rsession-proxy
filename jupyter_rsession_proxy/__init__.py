@@ -56,6 +56,7 @@ def setup_rstudio():
     return {
         'command': _get_rsession_cmd,
         'environment': _get_rsession_env,
+        'timeout': 15,
         'launcher_entry': {
             'title': 'RStudio',
             'icon_path': os.path.join(os.path.dirname(os.path.abspath(__file__)), 'icons', 'rstudio.svg')
